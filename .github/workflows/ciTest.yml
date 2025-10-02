@@ -8,13 +8,6 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
       - name: 24f2004808@ds.study.iitm.ac.in
-        run: echo "Hello, world! Running GitHub Actions with email in step name."
-
-      - name: Run Python version check
-        run: python --version
+        run: echo "Hello, world!"
