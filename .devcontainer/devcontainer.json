@@ -3,5 +3,4 @@
   "features": {
     "ghcr.io/devcontainers/features/python:1": {}
   },
-"postCreateCommand": "pip install uv && uv pip install fastapi"
 }
