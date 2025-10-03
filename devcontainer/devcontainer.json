@@ -1,4 +1,11 @@
-{ 
-    "name": "ga2-89cc25",
-    
+{
+  "name": "ga2-89cc25",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {}
+  },
+  "extensions": [
+    "astral-sh.uv",
+    "ms-python.python"
+  ],
+  "postCreateCommand": "uv pip install fastapi"
 }
